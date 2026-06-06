@@ -35,7 +35,7 @@ python3 domain\_analyzer.py example.com example2.com [--vt-key YOUR\_API\_KEY]
 ```bash
 python3 domain\_analyzer.py --file domains.txt [--vt-key YOUR\_API\_KEY]
 ```
-> Never share your VirusTotal API key publicly or commit it to the repository.\\
+> Never share your VirusTotal API key publicly or commit it to the repository.
 
 > The \--vt-key\ flag is optional. If omitted, VirusTotal reputation results will be skipped and only SPF, DMARC, DKIM, and WHOIS data will be returned.
 
@@ -44,9 +44,9 @@ python3 domain\_analyzer.py --file domains.txt [--vt-key YOUR\_API\_KEY]
 File	Description
 \report.html\	Full domain analysis report
 \report.png\	Screenshot of the HTML report
-\## Use Case
+## Use Case
 
-Designed to support \\GRC (Governance, Risk & Compliance)\\ workflows, specifically for domain whitelisting reviews.
-The HTML/screenshot output allows non-technical stakeholders to review domain reputation data without needing terminal access.
-Bulk analysis via \--file\ allows analysts to process entire domain lists at once.
+Designed to support GRC (Governance, Risk & Compliance) workflows, specifically for domain whitelisting reviews.
+The HTML screenshot output allows non-technical stakeholders to review domain reputation data without needing terminal access.
+Bulk analysis via --file allows analysts to process entire domain lists at once.
 
