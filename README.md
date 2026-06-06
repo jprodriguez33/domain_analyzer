@@ -35,9 +35,9 @@ python3 domain\_analyzer.py example.com example2.com [--vt-key YOUR\_API\_KEY]
 ```bash
 python3 domain\_analyzer.py --file domains.txt [--vt-key YOUR\_API\_KEY]
 ```
-\>  \\Never share your VirusTotal API key publicly or commit it to the repository.\\
+Never share your VirusTotal API key publicly or commit it to the repository.\\
 
-\>  The \--vt-key\ flag is optional. If omitted, VirusTotal reputation results will be skipped and only SPF, DMARC, DKIM, and WHOIS data will be returned.
+The \--vt-key\ flag is optional. If omitted, VirusTotal reputation results will be skipped and only SPF, DMARC, DKIM, and WHOIS data will be returned.
 
 \## Output
 
