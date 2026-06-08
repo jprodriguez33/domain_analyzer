@@ -25,15 +25,15 @@ for easy sharing.
 
 ### Single domain
 ```bash
-python3 domain\_analyzer.py example.com [--vt-key YOUR\_API\_KEY]
+python3 domain_analyzer.py example.com [--vt-key YOUR\_API\_KEY]
 ```
 ### Multiple domains
 ```bash
-python3 domain\_analyzer.py example.com example2.com [--vt-key YOUR\_API\_KEY]
+python3 domain_analyzer.py example.com example2.com [--vt-key YOUR\_API\_KEY]
 ```
 ### From a file
 ```bash
-python3 domain\_analyzer.py --file domains.txt [--vt-key YOUR\_API\_KEY]
+python3 domain_analyzer.py --file domains.txt [--vt-key YOUR\_API\_KEY]
 ```
 > Never share your VirusTotal API key publicly or commit it to the repository.
 
